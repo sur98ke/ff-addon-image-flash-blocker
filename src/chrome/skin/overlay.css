@@ -1,0 +1,14 @@
+.url
+{
+	color: blue;
+	text-decoration: underline;
+
+	cursor: pointer;
+
+	margin: 1px 0px 2px 31px;
+}
+
+toolbarbutton#imgflashblocker-menu
+{
+	list-style-image: url("chrome://imgflashblocker/skin/imgflashblocker-small.png");
+}

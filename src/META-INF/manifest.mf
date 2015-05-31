@@ -1,0 +1,107 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QEVdFXfwz+Exnowq5knnQA==
+SHA1-Digest: YvGXr7KTmcmxKGaiDASvsO5XiGk=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4VMBt5n+QTlfMl1zpksUyw==
+SHA1-Digest: CrdaISILrj59qu0HizXgW0I74jk=
+
+Name: chrome/content/overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: E0oZjpjyaDKNvNvZGWjlUA==
+SHA1-Digest: 2W5RoxhRaMO9wtuzNW59I8nIQN0=
+
+Name: chrome/content/overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wypFCwi6KNYgxZYDDIs/3w==
+SHA1-Digest: 3SHXm85B2YAxmO/5guKnzrurSMc=
+
+Name: chrome/locale/ar/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OyoeAqEnVp4dltG9i+Pbyw==
+SHA1-Digest: y07klOAeE/Ae6XLdOvSMvC4GJaI=
+
+Name: chrome/locale/da/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pCOegJPj7I1mvWNd0QtS1A==
+SHA1-Digest: 72/c3ItP5qV88xFzFt2YAHpKnjY=
+
+Name: chrome/locale/de/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8VLPyM10BV/zpNI51l/WPg==
+SHA1-Digest: OmP0H/e71wCEgz4OR11HdjrYmEI=
+
+Name: chrome/locale/en-US/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yp3Nd5kF+BVFrZQKpp+IpA==
+SHA1-Digest: uxN846ZIWi+9eaN6kM/1f9GP7Ic=
+
+Name: chrome/locale/es/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jBQ2usP/gaIaeYOw5XUvVw==
+SHA1-Digest: ej0g2Nz4NdKkiPb5uHal6wUVYtM=
+
+Name: chrome/locale/fr/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KzXhYVo0hxob0P47fddeZQ==
+SHA1-Digest: W2xjrSw3r5AsZ+8D2vi/B+I5J/Y=
+
+Name: chrome/locale/he/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /86K1TY3vBdz7TY41sSuag==
+SHA1-Digest: QeZyGfvknMPRVV3OEgSHSyNIlm0=
+
+Name: chrome/locale/it/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u49MLD1CgalNeo480SPLcg==
+SHA1-Digest: RlUZP8S8D21C4+IdoPROJEYO9o4=
+
+Name: chrome/locale/nb-NO/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lHKMW1x0CE2LZZfpwXuiLA==
+SHA1-Digest: QOQxfudo0zwbBi9CCjGY0nE3UxI=
+
+Name: chrome/locale/nl/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: R6iwnDdcwjCgCvzeeIBm+g==
+SHA1-Digest: Nxeii/ew6ApuMI/jgqtztlAOcNI=
+
+Name: chrome/locale/ru/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kqM3udJt5vraNya+CDKRxQ==
+SHA1-Digest: /4VSxwB0qEfbQdlfqcYznr1svaU=
+
+Name: chrome/locale/sv-SE/imgflashblocker.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GyZNcS/UDOKQz7bymt9dLQ==
+SHA1-Digest: rzU+BcEsmnb+hAE8Q1Z0qB5Bvzs=
+
+Name: chrome/skin/imgflashblocker-small.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: waIH/x1/4fdwbOJxDNuDsw==
+SHA1-Digest: kggLlGElVyxYsT1HdlwhpTdpEYc=
+
+Name: chrome/skin/imgflashblocker.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sCm5NdO50EE0nNEnSfVEhA==
+SHA1-Digest: IKfDJMBw60Jz04O4Zv38V4XxAmA=
+
+Name: chrome/skin/overlay.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bVpP8UfGHeXr+YqkPfbTVQ==
+SHA1-Digest: tviEMsm/4a3DnjmI+Hf396/SvDI=
+
+Name: chrome/skin/Thumbs.db
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DWzvHxhP4IBUtqi11l6wCA==
+SHA1-Digest: OS2Hm+2j2EivwEIVmMkcdEKwQj8=
+
+Name: defaults/preferences/imgflashblocker.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LnWSpxZ/KljcEGZR/spGhg==
+SHA1-Digest: zATaHEH9o14niQYo9tGav0Tmf1Q=
+

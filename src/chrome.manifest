@@ -1,0 +1,16 @@
+content	imgflashblocker	chrome/content/
+locale	imgflashblocker	ar	chrome/locale/ar/
+locale	imgflashblocker	da	chrome/locale/da/
+locale	imgflashblocker	de	chrome/locale/de/
+locale	imgflashblocker	en-US	chrome/locale/en-US/
+locale	imgflashblocker	es	chrome/locale/es/
+locale	imgflashblocker	fr	chrome/locale/fr/
+locale	imgflashblocker	he	chrome/locale/he/
+locale	imgflashblocker	ru	chrome/locale/ru/
+locale	imgflashblocker	it	chrome/locale/it/
+locale	imgflashblocker	nb-NO	chrome/locale/nb-NO/
+locale	imgflashblocker	nl	chrome/locale/nl/
+locale	imgflashblocker	ru	chrome/locale/ru/
+locale	imgflashblocker	sv-SE	chrome/locale/sv-SE/
+skin	imgflashblocker	classic/1.0	chrome/skin/
+overlay	chrome://browser/content/browser.xul	chrome://imgflashblocker/content/overlay.xul

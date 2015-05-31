@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - Copyright (c) 2010 Shimon Chohen
+  - Developer: Dmitriy Khudorozhkov (dmitrykhudorozhkov@yahoo.com)
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+  - WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+  - MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+  - ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+  - WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+  - ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+  - OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  - -->
+
+<?xml-stylesheet href="chrome://imgflashblocker/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://imgflashblocker/locale/imgflashblocker.dtd">
+<overlay id="imgflashblocker-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="text/javascript" src="overlay.js" />
+
+	<popup id="contentAreaContextMenu">
+			<menu id="SitesSearchShare" label="&imgflashblocker.block;" insertbefore="context-searchselect">
+				<menupopup oncommand="event.stopPropagation();">
+					<menuitem id="imgflashblocker-imgflash"     label="&imgflashblocker.imgflash;"     type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
+					<menuitem id="imgflashblocker-noimgflash"   label="&imgflashblocker.noimgflash;"   type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
+					<menuitem id="imgflashblocker-imgnoflash"   label="&imgflashblocker.imgnoflash;"   type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
+					<menuitem id="imgflashblocker-noimgnoflash" label="&imgflashblocker.noimgnoflash;" type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
+<menuseparator />
+
+						<text class="url" onclick="imgflashblocker.open(this);" href="http://mytranslate.info/index.php" value="&imgflashblocker.linktranslate;" />
+						<text class="url" onclick="imgflashblocker.open(this);" href="http://levtov.net/free-scan" value="&imgflashblocker.linkscan;" />
+				</menupopup>
+			</menu>
+	</popup>
+
+</overlay>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>imgflashblocker@shimon.chohen</em:id>
+		<em:name>Image and Flash Blocker</em:name>
+		<em:version>0.7.1-signed</em:version>
+		<em:type>2</em:type>
+		<em:creator>Shimon Chohen (idea, financing, localization)</em:creator>
+		<em:developer>Dmitriy Khudorozhkov (addon developer)</em:developer>
+		<em:description>Allows user to block images and/or flash elements on a page.</em:description>
+		<em:iconURL>chrome://imgflashblocker/skin/imgflashblocker.png</em:iconURL>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>7.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:localized>
+			<Description>
+				<em:locale>ru</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Позволяет пользователю заблокировать загрузку изображений и/или флэша.</em:description>
+				<em:creator>Shimon Chohen (идея и локализация)</em:creator>
+				<em:developer>Дмитрий Худорожков (разработчик расширения)</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>he</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>מאפשר לך בקליק אחד לחסום תמונות או פלאשים בלחיצת כפתור אחת - בקליק נוסף ניתן לבטל את החסימה.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>nl</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Hiermee kan de gebruiker beelden te blokkeren en flash-elementen op een pagina.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>fr</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Permet à l'utilisateur de bloquer des images ou des éléments instantanés à une page.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>de</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Ermöglicht dem Benutzer die Bilder oder Flash-Elemente auf einer Seite zu blockieren.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>ar</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>يسمح للمستخدم لمنع الصور أو عناصر فلاش على الصفحة.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>da</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Tillader brugeren at blokere billeder eller flash elementer på en side.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>it</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Permette che l'utente ostruisca le immagini o gli elementi istantanei ad una pagina.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>nb-NO</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Tillater brukeren å blokkere bilder eller flash-elementer på en side.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>sv-SE</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Tillåter användare att blockera bilder eller delar blixt på en sida.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+		<em:localized>
+			<Description>
+				<em:locale>es</em:locale>
+				<em:name>Image and Flash Blocker</em:name>
+				<em:description>Permite al usuario bloquear imágenes o elementos flash en una página.</em:description>
+				<em:creator>Shimon Chohen</em:creator>
+				<em:developer>Dmitriy Khudorozhkov</em:developer>
+			</Description>
+		</em:localized>
+
+	</Description>
+</RDF>
