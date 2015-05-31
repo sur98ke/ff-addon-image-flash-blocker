@@ -2,6 +2,7 @@
 <!--
   - Copyright (c) 2010 Shimon Chohen
   - Developer: Dmitriy Khudorozhkov (dmitrykhudorozhkov@yahoo.com)
+  - Fix: 2015 Artur Mansurov
   -
   - THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
   - WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
@@ -18,19 +19,22 @@
 
 	<script type="text/javascript" src="overlay.js" />
 
-	<popup id="contentAreaContextMenu">
-			<menu id="SitesSearchShare" label="&imgflashblocker.block;" insertbefore="context-searchselect">
+	<toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton 
+            id="imgflashblocker-menu" 
+            type="menu"
+            class="toolbarbutton-1 chromeclass-toolbar-additional"
+            label="&imgflashblocker.block;"
+            tooltiptext="&imgflashblocker.block;"
+            >
 				<menupopup oncommand="event.stopPropagation();">
 					<menuitem id="imgflashblocker-imgflash"     label="&imgflashblocker.imgflash;"     type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
 					<menuitem id="imgflashblocker-noimgflash"   label="&imgflashblocker.noimgflash;"   type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
 					<menuitem id="imgflashblocker-imgnoflash"   label="&imgflashblocker.imgnoflash;"   type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
 					<menuitem id="imgflashblocker-noimgnoflash" label="&imgflashblocker.noimgnoflash;" type="checkbox" checked="false" oncommand="imgflashblocker.check(this.id);" />
-<menuseparator />
-
-						<text class="url" onclick="imgflashblocker.open(this);" href="http://mytranslate.info/index.php" value="&imgflashblocker.linktranslate;" />
-						<text class="url" onclick="imgflashblocker.open(this);" href="http://levtov.net/free-scan" value="&imgflashblocker.linkscan;" />
 				</menupopup>
-			</menu>
-	</popup>
+        </toolbarbutton>
+	</toolbarpalette>
+
 
 </overlay>
