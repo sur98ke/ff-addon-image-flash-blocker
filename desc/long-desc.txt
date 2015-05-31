@@ -1,0 +1,13 @@
+Just place addon icon into any toolbal and click it. Then choose, which elements should be loaded and displayed:
+
+"Images on, Flash on"
+or
+"Images off, Flash on"
+or
+"Images on, Flash off"
+or
+"Images off, Flash off"
+
+Changes are applied immideately to all opened tabs, so you can use this addon to rapidly hide images and flash objects.
+
+This add-on is able to block java embedded photos.

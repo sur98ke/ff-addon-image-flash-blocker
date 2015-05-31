@@ -1,0 +1,3 @@
+Allows user to block images and/or flash elements on a page. This modified version works as toolbar menu-button.
+Original version can be obtained at https://addons.mozilla.org/ru/firefox/addon/image-and-flash-blocker/
+Advertizing liks were removed.
